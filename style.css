@@ -50,14 +50,14 @@ body{
 /* Main Section Start*/
 .about-page-section{
     max-width: 1400px;
-    height:1400px;
+    height:1100px;
     display: flex;
     justify-content:space-between;
     align-items:top;
-    padding-bottom:20px
+    padding-bottom:20px;
 }
 .about-page-all-items{
-    width:500px;
+    width:700px;
     height:auto;
     display: flex;
     align-items: left;
@@ -167,7 +167,7 @@ body{
     margin-bottom: 10px;
 }
 .about-image-section{
-    width:650px;
+    width:500px;
     height:auto;
     display: flex;
 
@@ -179,7 +179,7 @@ body{
 }
 .footer-section{
     max-width: 1400px;
-    height:80px;
+    height:120px;
     background:transparent;
     display:flex;
     align-items: center;

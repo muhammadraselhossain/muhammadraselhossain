@@ -163,6 +163,7 @@ body{
     padding:15px;
     border-radius: 10px;
     cursor: pointer;
+    border:none;
 
 }
 .pricing-section-button a{

@@ -94,14 +94,14 @@ body{
 /* Pricing Plan Box Section Start*/
 .pricing-plan-box-section{
     max-width: 1440px;
-    height:600px;
+    height:auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .pricing-plan-box-section .pricing-plan-box{
     width:30%;
-    height:100%;
+    height:auto;
     border:1px solid #fff;
     margin-left:10px;
     border-radius: 10px;
@@ -182,12 +182,7 @@ body{
     transition: .5s ease-in;
 
 }
-
-
-
-
-/* Pricing Plan Box Section Start*/
-
+/* Pricing Plan Box Section End*/
 
 
 
@@ -212,7 +207,7 @@ body{
 
 
 
-@media screen and (min-width:50px) and (max-width:1025px){
+@media screen and (max-width:767px){
     .mobile-header{
         display: block;
         display: flex;
@@ -239,16 +234,93 @@ body{
     .header-section{
         display: none;
     }
+    .pricing-section{
+        max-width:1450px;
+        height: auto;
+        margin:0 auto;
+        padding:50px 20px 50px 20px;;
+        display: flex;
+        flex-direction: column;
+        align-items:left;
+        justify-content: center;
+    }
+    .pricing-plan-line{
+        width:auto;
+        height:auto;
+        display: flex;
+        margin-bottom: 10px;
+    }
+   
+    .pricing-horizontal-line span{
+        width:20px;
+        margin-right:10px;
+    }
+    .pricing-section h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 
+    .pricing-plan-box-section{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        padding:20px 20px 20px 20px;  
+    }
+    .pricing-plan-box-section .pricing-plan-box{
+        width:100%;
+        height:auto;       
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .pricing-price-section{
+        width:auto;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-bottom: 10px;
+    }
 
-
-
-
-
-
-
-
-
+    #membership-standard{
+        font-size:30px;
+        margin-bottom: 20px;
+        text-align: center;
+        width:100%;
+        height:auto;
+    }
+    #membership-standard-about{
+        font-size:18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .pricing-option-section{
+        width:100%;
+        height:auto;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        padding:20px;
+    }
+    .pricing-option-section span{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .pricing-option-section span img{
+        margin-right: 10px;
+    }
+    .pricing-section-button{
+        width:100%;
+        height: auto;
+        background: #ffc107;
+        padding:15px;
+        border-radius: 10px;
+        cursor: pointer;
+        border:none;
+    
+    }
     .footer-section{
         width:100%;
         height:40px;
@@ -267,6 +339,155 @@ body{
         font-size:14px;
         text-align: center;
     }
+
+
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .mobile-header{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding:30px 20px;
+    }
+    .mobile-header-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-header-menu img{
+        width:30px;
+        height:30px;
+        margin-right: 10px;
+        cursor: pointer;;
+    }
+    .mobile-header-menu h4{
+        font-size:20px;
+    }
+    .mobile-header-logo h4{
+        font-size:20px;
+    }
+    .header-section{
+        display: none;
+    }
+    .pricing-section{
+        max-width:1450px;
+        height: auto;
+        margin:0 auto;
+        padding:50px 20px 50px 20px;;
+        display: flex;
+        flex-direction: column;
+        align-items:left;
+        justify-content: center;
+    }
+    .pricing-plan-line{
+        width:auto;
+        height:auto;
+        display: flex;
+        margin-bottom: 10px;
+    }
+   
+    .pricing-horizontal-line span{
+        width:20px;
+        margin-right:10px;
+    }
+    .pricing-section h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .pricing-plan-box-section{
+        height:auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding:20px 20px 20px 20px;
+        column-gap: 20px;
+    }
+    .pricing-plan-box-section .pricing-plan-box{
+        width:100%;
+        height:auto;       
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .pricing-price-section{
+        width:auto;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-bottom: 10px;
+    }
+
+    #membership-standard{
+        font-size:30px;
+        margin-bottom: 20px;
+        text-align: center;
+        width:100%;
+        height:auto;
+    }
+    #membership-standard-about{
+        font-size:18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .pricing-option-section{
+        width:100%;
+        height:auto;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        padding:20px;
+    }
+    .pricing-option-section span{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .pricing-option-section span img{
+        margin-right: 10px;
+    }
+    .pricing-section-button{
+        width:100%;
+        height: auto;
+        background: #ffc107;
+        padding:15px;
+        border-radius: 10px;
+        cursor: pointer;
+        border:none;
+    
+    }
+    .footer-section{
+        width:100%;
+        height:40px;
+        background:transparent;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        padding:20px 30px;
+        flex-wrap: wrap;
+
+    }
+    .footer-section-icon{
+        display: none;
+    }
+    .footer-section h3{
+        font-size:14px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
 
 
 

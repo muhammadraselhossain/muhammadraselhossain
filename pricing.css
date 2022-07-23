@@ -204,9 +204,6 @@ body{
     background-color:white;
     border-radius: 50%;
 }
-
-
-
 @media screen and (max-width:767px){
     .mobile-header{
         display: block;

@@ -21,11 +21,11 @@ body{
     position:relative;
     justify-content:space-between;
     align-items:center;
-    padding:0 40px
+    padding:0 40px;
 }
 .header-section .header-section-logo{
     text-decoration: none;
-    color:#fff;
+    color:#ffc107;
     font-size: 30px;
 }
 .header-section ul{
@@ -43,35 +43,33 @@ body{
     font-size:16px;
 }
 .header-section ul li a:hover{
-    color:#ffc107;
+    color:#4d2fbb;
     transition: .5s ease-in-out;
 }
 /* Header Section End*/
 /* Main Section Start*/
 .about-page-section{
     max-width: 1400px;
-    height:1100px;
-    display: flex;
-    justify-content:space-between;
-    align-items:top;
-    padding-bottom:20px;
-}
-.about-page-all-items{
-    width:700px;
     height:auto;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    justify-content:space-between;
+}
+.about-page-all-items{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    padding-left:80px;
+    padding:50px 80px 50px 80px;
 }
 .about-page-all-items h1{
     font-size:70px;
     margin-bottom:30px;
-    color:#ffc107
 }
 .about-page-all-items p{
     font-size:18px;
+    text-align: left;
 }
 .about-page-paragraph{
     margin-bottom:50px;
@@ -90,7 +88,6 @@ body{
 .progress-bar-div h2{
     font-size:30px;
     margin-bottom:10px;
-    color:#ffc107
 }
 .progress-bar-content{
     width:70%;
@@ -103,14 +100,14 @@ body{
 .progress-bar-horizontal-line{
     width:100%;
     height:3px;
-    background: #2a1845;
+    background: #08040f;
     display: flex;
     align-items: left;
 }
 .progress-bar-horizontal-line span{
     width:70%;
     height: 100%;
-    background: #ffc107;
+    background: #4d2fbb;
 }
 .progress-bar-items{
     margin-bottom: 20px;
@@ -128,7 +125,6 @@ body{
 .partners-div h2{
     font-size:30px;
     margin-bottom:10px;
-    color:#ffc107
 }
 .partners-div-items p{
     margin-bottom:5px;
@@ -145,46 +141,51 @@ body{
 .service-div h2{
     font-size:30px;
     margin-bottom:10px;
-    color:#ffc107
+    
 }
 .service-div-divider{
     width:100%;
-    height:3px;
+    height:auto;
     display: flex;
     align-items: left;
     margin-bottom: 10px;
     justify-content: space-between;
+    column-gap: 20px;
 }
-.service-div-column-1,.service-div-column-2{
-    width:50%;
+.service-div-column-1{
+    width:100%;
     height:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items:left;
-    flex-direction: column;
+    
 }
+.service-div-column-2{
+    width:100%;
+    height:auto;
+   
+}
+
 .service-div-column-1,.service-div-column-2, h4{
     margin-bottom: 10px;
 }
 .about-image-section{
-    width:500px;
-    height:auto;
+    width:700px;
+    height:100%;
     display: flex;
+    justify-content: center;
 
 }
 .about-image-section img{
     width:100%;
-    height:900px;
+    height:700px;
     position: center top;
 }
 .footer-section{
     max-width: 1400px;
-    height:120px;
+    height:100px;
     background:transparent;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 80px;
+    padding:20px 80px;
 }
 .footer-section img{
     width:30px;

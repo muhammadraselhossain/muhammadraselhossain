@@ -51,12 +51,11 @@ body{
 .pricing-section{
     max-width:1450px;
     height: 300px;
-    margin:0 auto;
-    padding:0 5%;
+    padding:0 80px;
     display: flex;
     flex-direction: column;
-    align-items:left;
-    justify-content: center;
+    justify-content:center;
+
 }
 .pricing-plan-line{
     width:20%;
@@ -476,19 +475,6 @@ body{
         font-size:14px;
         text-align: center;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
